@@ -9,10 +9,10 @@
 
 
 /* css resetting properties value */
-/* p{
+p{
     background-color: yellow;
 }
-.para-1{
+/*.para-1{
     background-color: pink;
 }
 
@@ -22,20 +22,20 @@
 
 .box .para .para-1{
     background-color: orange;
-} */
+} 
 
-/* .maindiv .box .para .para-1{
+.maindiv .box .para .para-1{
     background-color: brown;
-} */
+} 
 
-/* .maindiv .box .para .para-1{
+ .maindiv .box .para .para-1{
     background-color: unset;
-} */
+} 
 
-/* .box .para .para-1{
+ .box .para .para-1{
     background-color: unset;
-} */
-
+} 
+*/
 
 /* Universal selector */
 
@@ -133,6 +133,6 @@ background-color: red;
     visited
 */
 
-a:link{
+/*a:link{
     color:red;
-}
+}*/
