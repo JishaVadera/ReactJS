@@ -2,18 +2,18 @@ ul{
     background-color: pink;
     border:2px solid gray;
 }
-#div2{
-		color: purple;
-		font-family: times-roman;
-		background-color: greenyellow;
-		border: 10px solid;
-		border-style: dotted;
-		border-color: gold;
-	}
- .div3{
-			color: pink;
+
+ .div2 {
 			font-family: times-roman;
 			background-color: blue;
-			border: 10px solid;
-			border-color: gold;
-}		
+			border-color: red;
+}
+
+.maindiv  .div3{
+	/* color: red; */
+	/* font-family: times-roman; */
+	background-color: purple;
+	/* border: 10px solid; */
+	/* border-color: green; */
+}
+	
