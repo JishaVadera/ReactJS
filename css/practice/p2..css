@@ -1,0 +1,38 @@
+.heading{
+    font-size: 50px;
+    color: red;
+   /* text-align: center;*/
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border-width: 5px;
+    box-shadow: 10px 10px 10px gray;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* top: 50%;
+    bottom: 50%;*/
+}
+
+.btn3{
+    height: 50px;
+    width: 160px;
+    margin: 160px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border-width: 5px;
+    box-shadow: 10px 10px 10px gray;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* top: 50%;
+    bottom: 50%;*/
+}
