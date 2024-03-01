@@ -1,0 +1,23 @@
+header {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .logo img {
+  height: 200px;
+  width: 200px;
+}
+header .nav-items nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header .nav-items nav ul li {
+  margin-right: 50px;
+}
+header .nav-items nav ul li a {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

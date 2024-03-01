@@ -21,7 +21,7 @@
 } */
 .div1{
     background-color: aqua;
-    max-width: 500px;
+    max-width: 200px;
     margin: 10px;
     padding: 10px;
     flex-wrap: nowrap;
@@ -44,7 +44,7 @@
     background-color: aqua;
     margin: 10px;
     padding: 10px;
-    max-width: 500px;
+    max-width: 200px;
     flex-wrap: nowrap;
 }
 
@@ -64,7 +64,7 @@
 .div3{
     background-color: aqua;
     margin: 10px;
-    max-width: 450px;
+    max-width: 200px;
     padding: 10px;
     flex-wrap: nowrap;
 }
@@ -78,3 +78,76 @@
 .div3 p{
     margin-bottom: 20px;
 }
+.div4{
+    background-color: aqua;
+    margin: 10px;
+    max-width: 200px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.div4 h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.div4 p{
+    margin-bottom: 20px;
+}
+
+.div5{
+    background-color: aqua;
+    margin: 10px;
+    max-width: 200px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.div5 h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.div5 p{
+    margin-bottom: 20px;
+}
+
+.div6{
+    background-color: aqua;
+    margin: 10px;
+    max-width: 200px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.div6 h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.div6 p{
+    margin-bottom: 20px;
+}
+
+.div7{
+    background-color: aqua;
+    margin: 10px;
+    max-width: 200px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.div7 h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.div7 p{
+    margin-bottom: 20px;
+}
+
+
