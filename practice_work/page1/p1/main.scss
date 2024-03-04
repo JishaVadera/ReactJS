@@ -1,0 +1,44 @@
+@import 'variable';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.sec1{
+    display: $d-flex;
+    justify-content: $justify-between;
+    align-items: $align-center;
+    height: 90px;
+    width: 100%;
+}
+.nav1{
+    display: $d-flex;
+    justify-content: $justify-between;
+    ul{
+        display: $d-flex;
+        align-items: $align-center;
+        margin-right: 25px;
+        li{
+            list-style: none;
+            margin: 0 14px;
+            font-size: 18px;
+            font-weight: 600;
+            padding-right: 25px;
+            i{
+                padding: 20px;
+            }
+        }
+    }
+    .contact{
+        
+        border-color: $t-color12;
+        background-color: $t-color12;
+        text-decoration: none;
+        color: black;
+        height: $h-11;
+    }
+}

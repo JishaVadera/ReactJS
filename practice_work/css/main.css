@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 ul {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.nav1 ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 25px;
+}
+.nav1 ul li i {
+  padding: 20px;
+}
+.nav1 .contact {
+  border-color: orange;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  height: 79px;
+}/*# sourceMappingURL=main.css.map */
