@@ -35,18 +35,18 @@
 
 
 // -------------Determine the largest of three numbers-----------
-// let a = 10;
-// let b = 20;
-// let c = 30;
+// let x = 10;
+// let y = 20;
+// let z = 30;
 
-// if(a >= b && a >= c){
-//     console.log("Largest Number of A")
+// if(x >= y && x >= z){
+//     console.log("Largest Number of x")
 // }
-// else if(b >= a && b>=c){
-//     console.log("Largest Number of B")
+// else if(y >= x && y>=z){
+//     console.log("Largest Number of y")
 // }
 // else{
-//     console.log("Largest Number of C")
+//     console.log("Largest Number of z")
 // }
 
 
@@ -55,15 +55,15 @@
 
 // ----------Check if a year is a leap year--------
 
-// let year = 2000;
+// let yr = 2000;
 
-// if (year % 400 == 0) {
+// if (yr % 400 == 0) {
 //     console.log("this year is a leap year");
 //  }
-//  else if (year % 100 == 0){
+//  else if (yr % 100 == 0){
 //     console.log("this year is a not leap year");
 //  }
-//  else if (year % 4 == 0){
+//  else if (yr % 4 == 0){
 //     console.log("this year is a leap year");
 //  }
 //  else{
