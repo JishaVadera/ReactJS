@@ -22,7 +22,7 @@
 
 // let age = 18;
 
-// if(age>=18)
+// if(age>18)
 // {
 //     console.log("Eligible for Voting!");
 // }
@@ -34,10 +34,10 @@
 
 
 
-// -------------Determine the largest of three numbers-----------
-// let x = 10;
-// let y = 20;
-// let z = 30;
+// Determine the largest of three numbers
+// let x = 40;
+// let y = 60;
+// let z = 90;
 
 // if(x >= y && x >= z){
 //     console.log("Largest Number of x")
@@ -53,9 +53,9 @@
 
 
 
-// ----------Check if a year is a leap year--------
+// Check if a year is a leap year
 
-// let yr = 2000;
+// let yr = 2005;
 
 // if (yr % 400 == 0) {
 //     console.log("this year is a leap year");
@@ -72,26 +72,32 @@
 
 
 
-// ---------Determine the grade based on a score----------
+// Determine the grade based on a score
 
-// let marks = 60;
+// let marks = 100;
 
-// if(marks>=40 && marks<50){
+// if(marks>=40 && marks<50)
+// {
 //     console.log("grade f");
 // }
-// else if(marks>=50 && marks<60){
+// else if(marks>=50 && marks<60)
+// {
 //    console.log("grade e") ;
 // }
-// else if(marks>=60 && marks<70){
+// else if(marks>=60 && marks<70)
+// {
 //     console.log("grade d") ;
-//  }
-// else if(marks>=70 && marks<80){
+// }
+// else if(marks>=70 && marks<80)
+// {
 //     console.log("grade c") ;
 //  }
-//  else if(marks>=80 && marks<90){
+//  else if(marks>=80 && marks<90)
+//  {
 //     console.log("grade b") ;
 //  }
-//  else if(marks>=90 && marks<100){
+//  else if(marks>=90 && marks<=100)
+//  {
 //     console.log("grade a") ;
 //  }
 //  else{
