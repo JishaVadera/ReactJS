@@ -124,8 +124,8 @@
 // let Addsets2 = SetObject.add("Lemon");
 // let Addsets3 = SetObject.add("Mango");
 
-// console.log(Addsets);
 
+// console.log(Addsets);
 // entries method
 
 
