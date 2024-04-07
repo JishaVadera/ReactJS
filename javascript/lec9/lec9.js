@@ -96,15 +96,15 @@
 
 // Finite value
 
-// {
-//     let Num = 145;
-//     let Num1 = Number.isFinite(Num);
-//     let Num2 = Number.isSafeInteger(Num);
-//     let Num3 = Number.isInteger(Num);
-//     console.log(Num1);
-//     console.log(Num2);
-//     console.log(Num3);
-// }
+{
+    let Num = 145.55;
+    let Num1 = Number.isFinite(Num);
+    let Num2 = Number.isSafeInteger(Num);
+    let Num3 = Number.isInteger(Num);
+    console.log(Num1);
+    console.log(Num2);
+    console.log(Num3);
+}
 
 // Javascript Date() object
 

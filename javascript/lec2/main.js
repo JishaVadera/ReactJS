@@ -32,7 +32,7 @@
 // console.log("option-3");
 // setTimeout(() => {
 //     console.log("hi,GM");
-// },5000)
+// } , 5000)
 // function greey(){
 //          console.log("hello");
 //     }

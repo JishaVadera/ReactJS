@@ -28,13 +28,13 @@
 
 // CharAt(number)
 
-// {
-//     let str = "This is morning upon us!";
+{
+    let str = "This is morning upon us!";
 
-//     let CharStr = str.charAt(2);
+    let CharStr = str.charAt(2);
 
-//     console.log(CharStr);
-// }
+    console.log(CharStr);
+}
 
 // indexof and lastindexof method
 
@@ -146,17 +146,17 @@
 
 // Javascript string include method
 
-// {
-//     let str = "Hello Javascript! undefined hello Hello";
+{
+    let str = "Hello Javascript! undefined hello Hello";
 
-//     let includestr = str.includes("Are you Developer");
+    let includestr = str.includes("Are you Developer");
 
-//     let includestr1 = str.includes("Hello",0);
+    let includestr1 = str.includes("Hello",0);
 
-//     console.log(includestr);
+    console.log(includestr);
 
-//     console.log(includestr1);    
-// }   
+    console.log(includestr1);    
+}   
 
 // Javascript string length method
 

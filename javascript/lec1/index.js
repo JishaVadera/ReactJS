@@ -1,4 +1,5 @@
-document.getElementById("demo").innerHTML  =  " Hello , Good Morning "
+document.getElementById("demo").innerHTML  
+= " Hello , Good Morning "
 
 console.log("hey");
 

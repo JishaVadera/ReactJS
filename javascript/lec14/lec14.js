@@ -1,40 +1,40 @@
 // Javascript Array and it's Method
 
-{
-    let array = [10, 50, 89, 101, 569];
+// {
+//     let array = [10, 50, 89, 101, 569];
 
-    array[0] = 30;
+//     array[0] = 30;
 
-    console.log(array);
+//     console.log(array);
 
-    let Newarray = new Array (10 ,50, 96 , 65 , 100);
+//     let Newarray = new Array (10 ,50, 96 , 65 , 100);
 
-    console.log(array);
+//     console.log(array);
 
-    console.log(Newarray);
+//     console.log(Newarray);
 
-    console.log(array.length);
+//     console.log(array.length);
 
-    console.log(Newarray.length);
+//     console.log(Newarray.length);
 
-    console.log(typeof(array));
+//     console.log(typeof(array));
 
-    console.log(typeof(Newarray));
-}
+//     console.log(typeof(Newarray));
+// }
 
-{
-    let array = [10];
+// {
+//     let array = [10];
 
-    let Newarray = new Array(10);
+//     let Newarray = new Array(10);
 
-    console.log(array);
+//     console.log(array);
 
-    console.log(Newarray);
+//     console.log(Newarray);
 
-    console.log(array.length);
+//     console.log(array.length);
 
-    console.log(Newarray.length);
-}
+//     console.log(Newarray.length);
+// }
 
 {
     let array = ["Javascript" , 56 , true , false , undefined , null , NaN];
@@ -64,7 +64,6 @@
 
     array.pop();
     array.pop();
-    
     console.log(array);
 
     // Array toString Method
@@ -75,8 +74,8 @@
 
     // Array reverse Method
 
-    let reverse = array.reverse();
-    console.log(reverse);
+    let reverse1 = array.reverse();
+    console.log(reverse1);
 
     // Array forEach method
 
@@ -93,4 +92,18 @@
 
         console.log(Newarray);
     }
+}
+
+
+{
+    let str =  "this is string method"
+             // 012345678901234567890
+
+    let slice = str.slice(2 , -2)
+
+    console.log(slice);
+
+    let substr = str.substring(3 , -9)
+
+    console.log(substr);
 }
