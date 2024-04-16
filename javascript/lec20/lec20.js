@@ -44,31 +44,21 @@
 // }
 
 // Object.DefineProperties() Method
+{
+  let obj = {};
 
-// {
-//     let obj = {}
+  Object.defineProperties(obj, {
+    obj1: {
+      name: "jisha",
+      value: 50,
+    },
 
-//     let propro2 = Object.defineProperties
-//     {
-//         object , 
-//         {
-//             obj1:
-//             {
-//                 name : "jisha",
-//                 value : 50
-//             },
-
-//             obj2:{
-//                 value:100
-//             }
-//         }
-//     }
-//     console.log(object);
-
-//     let propo = Object.defineProperties(obj , {})
-
-//     console.log(obj);
-// }
+    obj2: {
+      value: 100,
+    },
+  });
+  console.log(obj.obj1);
+}
 
 // Object.Prototype Method
 
@@ -113,20 +103,20 @@
 
 // Javascript arrow functions
 
-function foo(){
-    return console.log("This is basic function");
-}
+// function foo(){
+//     return console.log("This is basic function");
+// }
 
-foo();
+// foo();
 
-const foos = () => {return console.log('This is Arrow Function');} 
-foos()
+// const foos = () => {return console.log('This is Arrow Function');}
+// foos()
 
-const foos1 = () => console.log("This is Arrow Function");
-foos1()
+// const foos1 = () => console.log("This is Arrow Function");
+// foos1()
 
-const fo = a => a + a;
-console.log(fo(10));
+// const fo = a => a + a;
+// console.log(fo(10));
 
-const foo1 = ( a , b ) => a + b;
-console.log(foo(10,20));
+// const foo1 = ( a , b ) => a + b;
+// console.log(foo(10,20));

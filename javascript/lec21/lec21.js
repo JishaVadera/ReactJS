@@ -55,22 +55,22 @@
 
 // apply arg with loop
 
-// {
-// let num = [ 10 , 20 ];
+{
+let num1 = [ 10 , 20 ];
 
-// function num(){
-//     let sum = 0;
-//     for( let i = 0; i < arguments.length; i++){
-//         sum+=arguments[i];
-//     }
-//     return sum
-// }
+function num(){
+    let sum = 0;
+    for( let i = 0; i < arguments.length; i++){
+        sum+=arguments[i];
+    }
+    return sum
+}
 
-// let result = sum.apply( null , num );
+let result = num.apply( null , num1 );
 
-// console.log(result);
+console.log(result);
 
-// }
+}
 
 // Array Method
 
