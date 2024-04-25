@@ -1,58 +1,84 @@
-// Javascript HTML DOM Method
-// DOM selection Method
+// Javascript Dom New Element
+// createElement
+// textContent
+// appendChild
 
-let dom1 = document.getElementById('demo')
-console.log(dom1);
+// let element = document.createElement("marquee");
+// element.setAttribute("bgcolor","green")
+// element.textContent = "Hello";
+// document.body.appendChild(element)
 
-let dom2 = document.getElementById('demo').id
-console.log(dom2);
+// let image = document.createElement('img');
+// image.setAttribute('src',"./img/krishna.jpg");
+// image.setAttribute("alt","radhakrishna");
+// image.setAttribute("height","200px");
+// image.setAttribute("width","200px");
+// document.body.appendChild(image);
+// console.log(image);
 
-let dom3 = document.getElementById('demo').className;
-console.log(dom3);
+/*
+addeventListeners
+attributes
+appendChild
+blur()
+focus()
+childElementCount()
+childNodes
+classList
+className
+click()
+firstChild
+hasAttributes
+hasAttribute
+removeChild
+*/
 
-// style
+// document.getElementById('clicks').addEventListener("mouseover" , size)
 
-// document.getElementById("demo").style.color = "blue";
+// function size(){
+//     document.getElementById('demobox').style.height = "200px";
+//     document.getElementById('demobox').style.width = "200px";
+//     document.getElementById('demobox').style.backgroundColor = "blue";
+// }
 
-// let dom4 = document.getElementsByClassName("heading")
+// document.getElementById('headtext').addEventListener("click" , size)
 
-// dom4[0].style.color = "green"
-// console.log(dom4);
+// function size(){
+//     document.getElementById('headtext').style.display = "none"; 
+// }
 
-// let dom5 = document.getElementById("demo").style.backgroundColor = "blue";
-// console.log(dom5);
+// let image = document.getElementById("img").attributes
+// let image1 = document.getElementById("img").attributes.length
 
-// textcontent , innerText and innerHTML
+// console.log(image);
+// console.log(image1);
 
-// let dom6 = document.getElementById('demo').textContent;
-// console.log(dom6);
+let inputs = document.getElementById("text").focus()
+function blur(){
+    document.getElementById('text').blur()
+}
 
-// let dom7 = document.getElementById('demo').innerText;
-// console.log(dom7);
+document.getElementById("focuss").addEventListener("click" , function(){
+    document.getElementById('text').focus()
+})
 
-// let dom8 = document.getElementById('demo').innerHTML;
-// console.log(dom8);
+document.getElementById("focuss").addEventListener("click" , function(){
+    document.getElementById('text').focus()
+})
 
-// QuerySelector and QuerySelectorAll
 
-// let data1 = document.querySelector('h1');
-// console.log(data1);
+document.getElementById("blur").addEventListener("click",function()
+{
+    document.getElementById('text').blur()
+})
 
-// data1.style.color = "purple";
+// let element = document.getElementById("demo").childElementCount
 
-// let data2 = document.querySelector('li');
-// console.log(data2);
+// console.log(element);
 
-// data2.style.color = "purple";
+// let elements = document.getElementById("demo").childNodes
 
-// let data3 = document.querySelectorAll("li");
-// console.log(data3);
+// console.log(elements);
 
-// data3.forEach((li) => {
-//     li.style.color = "red";
-// })
-
-// let data4 = document.querySelector('input[type = "password"]');
-// console.log(data4);
-
-// data4.style.backgroundColor = "purple";
+// let data = document.getElementById("demo").classList
+// data.add('heading');
