@@ -53,19 +53,14 @@ removeChild
 // console.log(image);
 // console.log(image1);
 
-let inputs = document.getElementById("text").focus()
-function blur(){
-    document.getElementById('text').blur()
-}
+// let inputs = document.getElementById("text").focus()
+// function blur(){
+//     document.getElementById('text').blur()
+// }
 
 document.getElementById("focuss").addEventListener("click" , function(){
     document.getElementById('text').focus()
 })
-
-document.getElementById("focuss").addEventListener("click" , function(){
-    document.getElementById('text').focus()
-})
-
 
 document.getElementById("blur").addEventListener("click",function()
 {
