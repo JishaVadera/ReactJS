@@ -87,16 +87,28 @@ let process1 = {
     AfterPack : ['Serve IceCream']
 }
 
-let promise1 = new Promise(function(resolve,reject){
-    setTimeout(() => {
-        console.log(`${process1.stock[0]}`);
-        console.log(`${process1.Fruits[0]} Flavour Production`);
-        resolve()   
-    } , 2000)
+
+const process  = (time , work) => {
+    return new Promise(function(resolve,reject){
+        setTimeout(() => {
+            resolve(work())
+        } , time)
+    })
+}
+
+process(2000 , () => {
+    console.log(`${process1.stock[0]}`);
+    console.log(`${process1.Fruits[0]} Flavour Production`);
 })
 
-promise1.then(() => {
-    console.log(`${process1.production[0]}`)
+
+
+.then(() => {
+  return process(2000 , () => {
+    console.log(`${process1.stock[0]}`);
+    console.log(`${process1.Fruits[0]} Flavour Production`);
+})
+
 } , 1000)
 
 promise1.then(() => {

@@ -44,21 +44,21 @@
 // }
 
 // Object.DefineProperties() Method
-{
-  let obj = {};
+// {
+//   let obj = {};
 
-  Object.defineProperties(obj, {
-    obj1: {
-      name: "jisha",
-      value: 50,
-    },
+//   Object.defineProperties(obj, {
+//     obj1: {
+//       name: "jisha",
+//       value: 50,
+//     },
 
-    obj2: {
-      value: 100,
-    },
-  });
-  console.log(obj.obj1);
-}
+//     obj2: {
+//       value: 100,
+//     },
+//   });
+//   console.log(obj.obj1);
+// }
 
 // Object.Prototype Method
 

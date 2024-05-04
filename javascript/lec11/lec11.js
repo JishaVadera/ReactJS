@@ -28,13 +28,13 @@
 
 // CharAt(number)
 
-{
-    let str = "This is morning upon us!";
+// {
+//     let str = "This is morning upon us!";
 
-    let CharStr = str.charAt(2);
+//     let CharStr = str.charAt(2);
 
-    console.log(CharStr);
-}
+//     console.log(CharStr);
+// }
 
 // indexof and lastindexof method
 
@@ -42,35 +42,27 @@
 //     let str = "this is morning upon us is!";
 
 //     let indexstr = str.indexOf("is");
-
-//     let laststr = str.lastIndexOf("is");
-
 //     console.log(indexstr);
 
+//     let laststr = str.lastIndexOf("is");
 //     console.log(laststr);
 
 //     let indexstr1 = str.indexOf("z");
-
-//     let indexstr2 = str.lastIndexOf("z");
-
 //     console.log(indexstr1);
 
+//     let indexstr2 = str.lastIndexOf("z");
 //     console.log(indexstr2);
 
 //     let indexstr3 = str.indexOf("is",6);
+//     console.log(indexstr3);
     
 //     let laststr1 = str.lastIndexOf("is",4);
-
-//     console.log(indexstr3);
-
 //     console.log(laststr1);
 
 //     let indexstr4 = str.indexOf("is",-1);
-
 //     console.log(indexstr4);
 
 //     let laststr2 = str.lastIndexOf("is",1)
-
 //     console.log(laststr2);
 
 // }
@@ -146,22 +138,22 @@
 
 // Javascript string include method
 
-{
-    let str = "Hello Javascript! undefined hello Hello";
+// {
+//     let str = "Hello Javascript! undefined hello Hello";
 
-    let includestr = str.includes("Are you Developer");
+//     let includestr = str.includes("Are you Developer");
 
-    let includestr1 = str.includes("Hello",0);
+//     let includestr1 = str.includes("Hello",0);
 
-    console.log(includestr);
+//     console.log(includestr);
 
-    console.log(includestr1);    
-}   
+//     console.log(includestr1);    
+// }   
 
 // Javascript string length method
 
-{
-    let str = "Hello Java!";
+// {
+//     let str = "Hello Java!";
 
-    console.log(str.length);
-}
+//     console.log(str.length);
+// }

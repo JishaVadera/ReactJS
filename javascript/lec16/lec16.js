@@ -56,8 +56,11 @@ flatMap
 // let array = ["java" , "html" , "nodejs" , "css" , "python"];
 
 // let array1 = [ 45 , 65 , 32 , 98 , 64];
+// let num = array1.findIndex(item => item > 2);
 
-// let arr1 = array.findIndex(item => item.length < 4);
+// console.log(num);
+
+// let arr1 = array.findIndex(item => item.length > 4);
 
 // console.log(arr1);
 
@@ -65,15 +68,11 @@ flatMap
 
 // console.log(arr2);
 
-// let num = array1.findIndex(item => item > 30);
-
-// console.log(num);
-
 // include method 
 
-// let num = [ 56 , 21 , 32 , 84 , 24 ];
+// let num1 = [ 56 , 21 , 32 , 84 , 24 ];
 
-// let include1 = num.includes(56);
+// let include1 = num1.includes(20);
 
 // console.log(include1);
 
@@ -88,7 +87,7 @@ flatMap
 
 // let isarray = Array.isArray();
 
-// console.log(Array);
+// console.log(isarray);
 
 // console.log(Array.isArray([]));
 
@@ -147,21 +146,21 @@ flatMap
 // console.log(math);
 
 // let math = Math.log(10);
-// let math1 = Math.log2(10);
+// let math1 = Math.log2(8);
 // let math2 = Math.log10(10);
 
 // console.log(math);
 // console.log(math1);
 // console.log(math2);
 
-// let math = Math.ceil(26.98);
+// let math = Math.ceil(26.10);
 // console.log(math);
 
 
-// let math = Math.floor(26.33)
+// let math = Math.floor(26.100)
 // console.log(math);
 
-// let math = Math.trunc(101.99);
+// let math = Math.trunc(101.101);
 // console.log(math);
 
 let math = Math.pow(5,2);

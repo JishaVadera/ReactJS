@@ -110,7 +110,7 @@ flatMap
 // {
 //     let array = ["Javascript" , "Jquery" , "html" , "css" , "bootstrap" , "Sass" , "nodejs" , "java"];
 
-//     let Index = array.indexOf("css" ,4 );
+//     let Index = array.indexOf("css" ,4);
 
 //     console.log(Index);
 
@@ -154,7 +154,9 @@ flatMap
 
 //     let Num = num.sort((a , b) => a - b);
 
-//     console.log(Num);
+    // let Num = num.sort();
+
+    // console.log(Num);
 
 // }
 
@@ -201,25 +203,25 @@ flatMap
 
 // }
 
-// Copwithin method in array
+// Copywithin method in array
 
-// {
-//     let array = ["Javascript" , "Jquery" , "html" , "css" , "bootstrap" , "Sass" , "nodejs" , "java"];
+{
+    // let array = ["Javascript" , "Jquery" , "html" , "css" , "bootstrap" , "Sass" , "nodejs" , "java"];
 
-//     console.log(array);
+    // console.log(array);
 
-//     let copy1 = array.copyWithin(3);
+    // let copy1 = array.copyWithin(3);
 
-//     console.log(copy1);
+    // console.log(copy1);
 
-//     let copy2 = array.copyWithin( 3 , 6 );
+    // let copy2 = array.copyWithin( 3 , 6 );
 
-//     console.log(copy2);
+    // console.log(copy2);
 
-//     let copy3 = array.copyWithin( 3 , 6 , 5);
+    // let copy3 = array.copyWithin( 3 , 6 , 5);
 
-//     console.log(copy3);
+    // console.log(copy3);
 
 
-// }
+}
 

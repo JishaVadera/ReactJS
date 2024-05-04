@@ -57,15 +57,15 @@
 
 // hasOWn() Method
 
-// {
-//     let obj = {Key1:"javascript", Key2:"html", Key3:"Css" , Key4:"NodeJs"}
+{
+    // let obj = {Key1:"javascript", Key2:"html", Key3:"Css" , Key4:"NodeJs"}
 
-//     let Data = Object.hasOwn(obj, "Key1");
+    // let Data = Object.hasOwn(obj, "Key1");
 
-//     console.log(Data);
+    // console.log(Data);
 
-//     console.log(obj.hasOwnProperty("Key1"));
-// }
+    // console.log(obj.hasOwnProperty("Key9"));
+}
 
 // Object.entries() Method
 
@@ -108,32 +108,32 @@
 
 // Object.groupBy() method
 
-{
-    let  Gross = [
-        {name:"Potato" , type:"vegetables" , price :40 , quantity :5},
-        {name:"CauliFlower" , type:"vegetables" , price :50 , quantity :6},
-        {name:"StawBerry" , type:"fruit" , price :50 , quantity :10},
-        {name:"Orange" , type:"fruit" , price :120 , quantity :35},
-        {name:"Chicken" , type:"meat" , price :40 , quantity :5},
-    ]
+    // {
+    //     let  Gross = [
+    //         {name:"Potato" , type:"vegetables" , price :40 , quantity :5},
+    //         {name:"CauliFlower" , type:"vegetables" , price :50 , quantity :6},
+    //         {name:"StawBerry" , type:"fruit" , price :50 , quantity :10},
+    //         {name:"Orange" , type:"fruit" , price :120 , quantity :35},
+    //         {name:"Chicken" , type:"meat" , price :40 , quantity :5},
+    //     ]
 
-    console.log(Gross);
+    //     console.log(Gross);
 
-    let Data = Object.groupBy(Gross , ({name}) => name)
+    //     let Data = Object.groupBy(Gross , ({name}) => name)
 
-    console.log(Data);
+    //     console.log(Data);
 
-    let Data1 = Object.groupBy(Gross , ({type}) => type)
+    //     let Data1 = Object.groupBy(Gross , ({type}) => type)
 
-    console.log(Data1);
+    //     console.log(Data1);
 
-    function stock(quantity) 
-    {
-        return quantity > 10 ? "enough stock" : "not enough"
-    }
+    //     function stock(quantity) 
+    //     {
+    //         return quantity > 10 ? "enough stock" : "not enough"
+    //     }
 
-    let Data3 = Object.groupBy(Gross , stock)
+    //     let Data3 = Object.groupBy(Gross , stock)
 
-    console.log(Data3);
+    //     console.log(Data3);
 
-}
+    // }

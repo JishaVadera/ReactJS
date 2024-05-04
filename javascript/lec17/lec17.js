@@ -1,6 +1,6 @@
 // Javascript Math object method
 
-let Maths1 = Math.round(12.36);
+let Maths1 = Math.round(12.55);
 console.log(Maths1);
 
 let Maths2 = Math.sign(-56);

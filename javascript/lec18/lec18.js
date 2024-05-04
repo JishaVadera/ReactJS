@@ -27,7 +27,7 @@
 // }
 
 // Object.assign() method
-{
+// {
 // const obj = {id:1 , firstName:"Jisha" , latsName:"Vadera" , gender:"female" , age:19};
 
 // const num = { key1:12 , key2:65 , key3:2 , key4:100};
@@ -41,7 +41,7 @@
 // let Assign1 = Object.assign({} , num , obj );
 
 // console.log(Assign1);
-}
+// }
 
 // Object.freeze() method 
 
@@ -67,25 +67,25 @@
 
 // Object.create() method
 
-{
-    const obj = {
-        id:1 ,
-        firstName:"Jisha" , 
-        latsName:"Vadera" , 
-        gender:"female" , 
-        age:19,
-        NewObj:function(){
-            console.log(`my first name is ${this.firstName} and I am ${this.occupaton}`);
-        }
-    };
+// {
+//     const obj = {
+//         id:1 ,
+//         firstName:"Jisha" , 
+//         latsName:"Vadera" , 
+//         gender:"female" , 
+//         age:19,
+//         NewObj:function(){
+//             console.log(`my first name is ${this.firstName} and I am ${this.occupation}`);
+//         }
+//     };
 
-    let NewObject = Object.create(obj);
+//     let NewObject = Object.create(obj);
 
-    NewObject.occupaton = "Developer";
+//     NewObject.occupation = "Developer";
 
-    console.log(NewObject.occupaton);
+//     console.log(NewObject.occupaton);
 
-    console.log(NewObject.NewObj());
+//     console.log(NewObject.NewObj());
 
-    console.log(obj);
-}
+//     console.log(obj);
+// }

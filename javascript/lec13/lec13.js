@@ -11,6 +11,8 @@
 
 // console.log(MatchAll);
 
+// console.log(Match);
+
 /* Basic Function in Javascript */
 
 // function greet(){

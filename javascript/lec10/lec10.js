@@ -43,7 +43,7 @@
 
 // let Dates = Date.parse(new Date());
 
-// console.log(Dates);
+// console.log(Date);
 
 // Set method in Date object
 
