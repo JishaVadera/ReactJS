@@ -1,0 +1,371 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindtask13</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="h-screen relative flex justify-center items-center">
+        <div class="image w-full h-screen absolute blur-sm" style="background-image: url(../accet/16.png);"></div>
+        
+        <section class="container px-10 absolute z-50">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <div>
+                    <div class="flex items-center gap-x-3">
+                        <h2 class="text-lg font-medium text-gray-800 dark:text-white">Customers</h2>
+    
+                        <span class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full">240 vendors</span>
+                    </div>
+    
+                    <p class="mt-1 text-sm text-gray-500 dark:text-gray-300">These companies have purchased in the last 12
+                        months.</p>
+                </div>
+    
+                <div class="flex items-center mt-4 gap-x-3">
+                    <button
+                        class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 bg-white border rounded-lg gap-x-2 sm:w-auto">
+                        <img src="../accet/5.png" alt="">
+                        <span>Import</span>
+                    </button>
+    
+                    <button
+                        class="flex items-center justify-center w-1/2 px-5 py-2 text-sm tracking-wide text-white bg-blue-500 rounded-lg shrink-0 sm:w-auto gap-x-2">
+                        <img class="w-5 h-5" src="../accet/icons8-plus-50.png" alt="">
+                        <span>Add vendor</span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="mt-6 md:flex md:items-center md:justify-between">
+                <div class="flex overflow-hidden bg-white border divide-x rounded-lg">
+                    
+                    <button class="px-5 py-2 text-xs font-medium text-gray-600 bg-gray-100 sm:text-sm">View all</button>
+    
+                    <button class="px-5 py-2 text-xs font-medium text-gray-600 sm:text-sm">Monitored</button>
+    
+                    <button class="px-5 py-2 text-xs font-medium text-gray-600 sm:text-sm">Unmonitored</button>
+                </div>
+    
+                <div class="relative flex items-center mt-4 md:mt-0">
+                    <img class="w-4 h-4 absolute ml-3" src="../accet/icons8-search-5.png" alt="">
+                    <input type="text" placeholder="Search" class="block w-full py-1.5 pr-5 text-gray-700 bg-white border border-gray-200 rounded-lg md:w-80 placeholder-gray-400/70 pl-11 rtl:pr-11 rtl:pl-5">
+                </div>
+            </div>
+    
+            <div class="flex flex-col mt-6">
+                <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                        <div class="overflow-hidden border border-gray-200 md:rounded-lg">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th scope="col" class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500">
+                                            <button class="flex items-center gap-x-3">
+                                                <span>Company</span>
+                                                <img class="h-3 " src="../accet/2353161.png" alt="">
+                                        </th>
+    
+                                        <th scope="col"class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 ">
+                                            Status
+                                        </th>
+    
+                                        <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500">
+                                            About
+                                        </th>
+    
+                                        <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500">Users</th>
+    
+                                        <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500">
+                                            License use
+                                        </th>
+    
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-white divide-y divide-gray-200">
+                                    <tr>
+                                        <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div>
+                                                <h2 class="font-medium text-gray-800">Catalog</h2>
+                                                <p class="text-sm font-normal text-gray-600">catalogapp.io</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div
+                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100">Customer
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div>
+                                                <h4 class="text-gray-700">Content curating app</h4>
+                                                <p class="text-gray-500">Brings all your news into one place</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="flex items-center">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"       src="../accet/1.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/2.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/3.avif" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/4.avif" alt="">
+    
+                                                <p class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">+4</p>
+    
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="w-48 h-1.5 bg-blue-200 overflow-hidden rounded-full">
+                                                <div class="bg-blue-500 w-2/3 h-1.5"></div>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <button class="px-1 py-1 text-gray-500 rounded-lg">
+                                                <img class="w-6 h-6" src="../accet/icons8-menu-vertical-60.png">
+                                            </button>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div>
+                                                <h2 class="font-medium text-gray-800">Circooles</h2>
+                                                <p class="text-sm font-normal text-gray-600">getcirooles.com</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div class="inline px-3 py-1 text-sm font-normal text-gray-500 bg-gray-100 rounded-full gap-x-2"> Churned
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div>
+                                                <h4 class="text-gray-700">Design software</h4>
+                                                <p class="text-gray-500">Super lightweight design app</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="flex items-center">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/1.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/2.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/3.avif" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/4.avif" alt="">
+    
+                                                <p class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">+4</p>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="w-48 h-1.5 bg-blue-200 overflow-hidden rounded-full">
+                                                <div class="bg-blue-500 w-2/5 h-1.5"></div>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <button class="px-1 py-1 text-gray-500 rounded-lg">
+                                                <img class="w-6 h-6" src="../accet/icons8-menu-vertical-60.png">                                            
+                                            </button>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div>
+                                                <h2 class="font-medium text-gray-800">Sisyphus</h2>
+                                                <p class="text-sm font-normal text-gray-600">sisyphus.com</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div
+                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100">
+                                                Customer
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div>
+                                                <h4 class="text-gray-700">Automation and workflow</h4>
+                                                <p class="text-gray-500">Time tracking, invoicing and expenses</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="flex items-center">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full  shrink-0"        src="../accet/1.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/2.jpeg" alt="">
+        
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/3.avif" alt="">
+        
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/4.avif" alt="">
+    
+                                                <p class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">+4</p>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="w-48 h-1.5 bg-blue-200 overflow-hidden rounded-full">
+                                                <div class="bg-blue-500 w-11/12 h-1.5"></div>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <button class="px-1 py-1 text-gray-500 rounded-lg">
+                                                <img class="w-6 h-6" src="../accet/icons8-menu-vertical-60.png"> 
+                                            </button>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div>
+                                                <h2 class="font-medium text-gray-800">Hourglass</h2>
+                                                <p class="text-sm font-normal text-gray-600">hourglass.app</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div class="inline px-3 py-1 text-sm font-normal text-gray-500 bg-gray-100 rounded-full gap-x-2 ">
+                                                Churned
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div>
+                                                <h4 class="text-gray-700">Productivity app</h4>
+                                                <p class="text-gray-500">Time management and productivity</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="flex items-center">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full  shrink-0"        src="../accet/1.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/2.jpeg" alt="">
+        
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/3.avif" alt="">
+        
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/4.avif" alt="">
+    
+                                                <p class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">+4</p>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="w-48 h-1.5 bg-blue-200 overflow-hidden rounded-full">
+                                                <div class="bg-blue-500 w-1/3 h-1.5"></div>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <button class="px-1 py-1 text-gray-500 rounded-lg">
+                                                <img class="w-6 h-6" src="../accet/icons8-menu-vertical-60.png"> 
+                                            </button>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div>
+                                                <h2 class="font-medium text-gray-800">Quotient</h2>
+                                                <p class="text-sm font-normal text-gray-600">quotient.co
+                                                </p>
+                                            </div>
+                                        </td>
+                                        <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                            <div class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100">Customer</div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div>
+                                                <h4 class="text-gray-700">Sales CRM</h4>
+                                                <p class="text-gray-500">Web-based sales doc management</p>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="flex items-center">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full  shrink-0"        src="../accet/1.jpeg" alt="">
+    
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/2.jpeg" alt="">
+        
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/3.avif" alt="">
+        
+                                                <img class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
+                                                src="../accet/4.avif" alt="">
+    
+                                                <p class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">+4</p>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <div class="w-48 h-1.5 bg-blue-200 overflow-hidden rounded-full">
+                                                <div class="bg-blue-500 w-1/6 h-1.5"></div>
+                                            </div>
+                                        </td>
+    
+                                        <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                            <button class="px-1 py-1 text-gray-500 rounded-lg">
+                                                <img class="w-6 h-6" src="../accet/icons8-menu-vertical-60.png"> 
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mt-3 sm:flex sm:items-center sm:justify-between ">
+                <div class="text-sm text-gray-500">Page <span class="font-medium text-gray-700">1 of 10</span></div>
+    
+                <div class="flex items-center mt-4 gap-x-4 sm:mt-0">
+                    <a href="" class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 bg-white border rounded-md sm:w-auto gap-x-2">
+                        
+                        <img class="w-5 h-5 rtl:-scale-x-100" src="../accet/icons8-left-arrow-50.png" alt="">
+                        
+                        <span>previous</span>
+                    </a>
+    
+                    <a href="" class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 bg-white border rounded-md sm:w-auto gap-x-2">
+    
+                        <span>Next</span>
+    
+                        <img class="w-5 h-5 rtl:-scale-x-100" src="../accet/icons8-right-arrow-50.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        </div>
+        
+      </div>
+
+
+
+
+</body>
+
+</html>

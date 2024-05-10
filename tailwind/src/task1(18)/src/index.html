@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwindtask1</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="h-screen relative flex justify-center items-center">
+      <div class="image w-full h-screen absolute blur-sm" style="background-image: url(../accet/18.png);"></div>
+      
+      <div class="bg-slate-50 w-auto p-10 absolute z-50">
+        <div class="grid place-items-center">
+          <div class="bg-white w-auto p-9 border rounded-md shadow-md">
+            <div>
+              <div class="flex">
+                <p class="text-slate-600 text-sm">FIRST NAME</p>
+                <p class="text-slate-600 text-sm ml-96">LAST NAME</p>
+              </div>
+              <div class="flex">
+                <input type="text" class="w-96 mt-2.5 border border-red-500 rounded bg-gray-200 text-slate-400 p-2.5"
+                  value="Jane" disabled>
+                <input type="text" class="w-96 ml-20 mt-2.5 border rounded bg-gray-200 text-slate-400 p-2.5" value="Doe" disabled>
+              </div>
+              <div>
+                <p class="text-red-500 mt-3"><i>Please fill out this field.</i></p>
+              </div>
+              <div>
+                <p class="text-slate-600 text-sm mt-6">PASSWORD</p>
+                <input type="text" class="w-11/12 mr-4 mt-2.5 border rounded bg-gray-200 text-slate-400 p-2.5"
+                  value="******************" disabled>
+                <p class="text-slate-600 text-sm mt-4"><i>Make it as long and as crazy as you'd like</i></p>
+              </div>
+              <div class="flex">
+                <p class="text-slate-600 text-sm mt-6">CITY</p>
+                <p class="text-slate-600 text-sm mt-6 ml-72">STATE</p>
+                <p class="text-slate-600 text-sm mt-6 ml-60">ZIP</p>
+              </div>
+              <div class="flex">
+                <input type="text" class="w-64 mr-4 mt-2.5 border rounded bg-gray-200 text-slate-400 p-2.5"
+                  value="Albuquerque" disabled>
+                <select class="w-60 ml-9 mr-4 mt-2.5 border rounded bg-gray-200 text-black p-2.5" disabled>
+                  <option selected>New Mexico</option>
+                  <option value="in">india</option>
+                  <option value="us">unites states</option>
+                  <option value="ca">canada</option>
+                </select>
+                <input type="text" class="w-64 ml-7 mr-4 mt-2.5 border rounded bg-gray-200 text-slate-400 p-2.5" value="90210"
+                  disabled>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>
