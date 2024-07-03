@@ -48,34 +48,34 @@
     console.log(array[6]);
 
 
-// Array push Method
+// // Array push Method
 
-    array.push("Python");
-    array.push("HTML");
-    console.log(array);
+//     array.push("Python");
+//     array.push("HTML");
+//     console.log(array);
 
-    // Array unshift method
+//     // Array unshift method
 
-    array.unshift("C++");
-    array.unshift("Java");
-    console.log(array);
+//     array.unshift("C++");
+//     array.unshift("Java");
+//     console.log(array);
 
-    // Array pop method
+//     // Array pop method
 
-    array.pop();
-    array.pop();
-    console.log(array);
+//     array.pop();
+//     array.pop();
+//     console.log(array);
 
-    // Array toString Method
+//     // Array toString Method
 
-    let string = array.toString();
+//     let string = array.toString();
 
-    console.log(string);
+//     console.log(string);
 
-    // Array reverse Method
+//     // Array reverse Method
 
-    let reverse1 = array.reverse();
-    console.log(reverse1);
+//     let reverse1 = array.reverse();
+//     console.log(reverse1);
 
     // Array forEach method
 

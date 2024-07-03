@@ -69,7 +69,7 @@
 
 // Javascript trim, trimEnd and trimStart method
 
-    // let str = " this is morning upon us is!  ";
+//     let str = " this is morning upon us is!  ";
 
     // console.log(str);
 

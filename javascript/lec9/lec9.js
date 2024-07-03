@@ -24,11 +24,11 @@
 // float number convert into precision number
 
 // {
-//     let Num = 263.35698223;
+    // let Num = 263.35698223;
 
-//     let Num1 = Num.toPrecision();
+    // let Num1 = Num.toPrecision();
 
-//     console.log(Num1);
+    // console.log(Num1);
 
 //     let Num2 = Num.toPrecision(5);
 
@@ -126,3 +126,7 @@
     console.log(now.toTimeString());
     console.log(now.toUTCString());
 }
+
+
+
+

@@ -1,24 +1,24 @@
 // ClassName
 
-let value = document.getElementById('headings')
+// let value = document.getElementById('headings')
  
 
-function colors(){
-    if(value.className == 'heading'){
-        value.className = 'heading-1'
-    }
-    else
-    {
-        value.className = 'heading'
-    }
-}
+// function colors(){
+//     if(value.className == 'heading'){
+//         value.className = 'heading-1'
+//     }
+//     else
+//     {
+//         value.className = 'heading'
+//     }
+// }
 
 // document.getElementById('inputcheck').addEventListener('mouseover' , click)
 
 // function click(){
 //     document.getElementById('inputcheck').click()
 // }
-// click()
+// click() 
 
 
 // Firstchild

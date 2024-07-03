@@ -1,57 +1,57 @@
-/* Javascript String Method */
+        /* Javascript String Method */
 
-/* match And matchAll string Method */
+        /* match And matchAll string Method */
 
-// let str = 'Dog is very cute but dog it is danger and Dog is so cute but dog is lazy!'
-
-
-// let Match = str.match(/Dog/gi)
-
-// let MatchAll  = [...str.matchAll(/Dog/gi)]
-
-// console.log(MatchAll);
-
-// console.log(Match);
-
-/* Basic Function in Javascript */
-
-// function greet(){
-//     console.log(true);
-// }
-
-// greet();
+        // let str = 'Dog is very cute but dog it is danger and Dog is so cute but dog is lazy!'
 
 
-/* Parameters and arguments */
+        // let Match = str.match(/Dog/gi)
 
-// function Sum(number1 , number2){
-//     console.log(number1 + number2);
-// }
+        // let MatchAll  = [...str.matchAll(/Dog/gi)]
 
-// function Multiplication (num1 , num2 ){
-//     console.log(num1*num2);
-// }
+        // console.log(MatchAll);
 
-// Sum(4 , 8);
-// Sum(10 , 20);
-// Sum(10 , "10")
+        // console.log(Match);
 
-// Multiplication(2 , 10)
-// Multiplication(2 , "10")
-// Multiplication("10" , "10")
+        /* Basic Function in Javascript */
 
-/* Function With return keyword */
+        // function greet(){
+        //     console.log(true);
+        // }
 
-// function greet(a , b){
+        // greet();
 
-//     console.log("Hello Function!");
-//     return a + b;
-// }
 
-// let str = `${a} and ${b}`
-// console.log(str);
-// console.log(greet(10 , 25));
+        /* Parameters and arguments */
 
-// const print = (a) => console.log(a+a);
-// console.log(print(10));
+        // function Sum(number1 , number2){
+        //     console.log(number1 + number2);
+        // }
+
+        // function Multiplication (num1 , num2 ){
+        //     console.log(num1*num2);
+        // }
+
+        // Sum(4 , 8);
+        // Sum(10 , 20);
+        // Sum(10 , "10")
+
+        // Multiplication(2 , 10)
+        // Multiplication(2 , "10")
+        // Multiplication("10" , "10")
+
+        /* Function With return keyword */
+
+        // function greet(a , b){
+
+        //     console.log("Hello Function!");
+        //     return a + b;
+        // }
+
+        // let str = `${a} and ${b}`
+        // console.log(str);
+        // console.log(greet(10 , 25));
+
+        // const print = (a) => console.log(a+a);
+        // console.log(print(10));
 

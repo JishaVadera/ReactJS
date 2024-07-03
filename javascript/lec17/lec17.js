@@ -35,3 +35,5 @@ let min = 91;
 
 let Maths11 = Math.floor(Math.random() * (max - min + 1 )) + min;
 console.log(Maths11);
+
+
