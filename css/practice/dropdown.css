@@ -57,18 +57,18 @@
 } */
 
 
-header{
+/* header{
   display: flex;
   background-color: gray;
   padding: 20px;
   justify-content: space-around;
   align-items: center;
   position: relative;
-}
-.nav-item ul{
+} */
+/* .nav-item ul{
   display: flex;
   list-style-type: none;
-}
+} */
 .nav-item ul li{
   margin-left: 50px;
 }
@@ -128,7 +128,7 @@ a{
 }
 .dropdown_menu2{
   position: absolute;
-  bottom: -530px;
+  bottom: -150px;
   display: none !important;
 }
 
